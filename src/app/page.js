@@ -27,7 +27,7 @@ export default function Home() {
     </div>
     
     <div className="fileupload w-full bg-slate-100 min-h-94 py-4 px-4 flex flex-col md:flex-row items-center justify-center ">
-      <FileUploader actionUrl="http://localhost:8000/upload" />
+      <FileUploader actionUrl="https://po-backend.onrender.com/upload" />
     </div>
 
   </>

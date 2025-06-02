@@ -49,7 +49,7 @@ const FileUploader = ({ actionUrl }) => {
       message.success('Files processed! Fetching result...');
 
       // Fetch result.xlsx
-      const downloadResponse = await fetch('http://localhost:8000/download');
+      const downloadResponse = await fetch('https://po-backend.onrender.com/download');
       if (!downloadResponse.ok) {
         throw new Error('Download failed');
       }
